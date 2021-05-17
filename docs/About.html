@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="CrazieFingers a rising showcase platform for art and entertainment. Our purpose is to inspire people in the field of art and entertainment...">
+        <meta name="keywords" content="art, entertainment, games, videos, comics, books, dance,">
+        <meta name="author" content="Alaoma Amuzie Nwachukwu">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CrazieFingers-About</title>
+        <link rel="stylesheet" href="About.css">
+        <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="home.html" class="logo">CRAZIEFINGERS</a>
+
+                <input type="checkbox" id="box-1">
+                <label id="toggler" for="box-1">
+                    <span>MENU <i class="fas fa-bars"></i></span>
+                </label>
+
+                <ul>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Learning.html">Learning</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="https://gumroad.com/craziefingers/">Store</a></li>
+                    <li><a href="Support.html">Support</a></li>
+                </ul>
+
+                <div id="navbar-form">
+                    <input type="checkbox" id="box-2">
+                    <form action="" id="search-form">
+                        <input type="search" placeholder="Search" id="search-bar">
+                        <button id="search-btn" type="submit">
+                            <span><i class="fas fa-search"></i></span>
+                        </button>
+                    </form>
+
+                    <label for="box-2" id="search-form-opener">
+                        <span><i class="fas fa-search"></i></span>
+                    </label>
+
+                    <label for="box-2" id="search-form-closer">
+                        <span><i class="fas fa-times"></i></span>
+                    </label>
+
+                </div>
+            </nav>
+        </header>
+         <!--Next Row-->
+        <section class="banner">
+            <h2>"Email us if you want your Portfolio on CrazieFingers"</h2>
+            <h5>Alaoma Nwachukwu -- Ceo of CrazieFingers</h5>
+
+            <div class="overlay"></div>
+        </section>
+        <!--Next row-->
+        <section class="Adesc1">
+            <div class="inner-sec">
+                <h2>Show people what you're made of</h2>
+                <p>
+                    CrazieFingers provides you with a simple, yet powerful way to 
+                    show your portfolio and be seen by the right people in the industry.<br />
+                    It's super fast and sleek. Showcase high resolution images, videos,
+                    short clips, Marmoset and Sketchfab 3D scenes, 360 panos and more. <br />
+                    Add your work and production experience. <br />
+                </p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="Image/about2.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about3.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about3.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about4.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about5.png" ></div>
+                  <div class="swiper-slide"><img src="Image/about6.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about7.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about9.jpg" ></div>
+                  <div class="swiper-slide"><img src="Image/about8.jpg" ></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                  effect: 'coverflow',
+                  grabCursor: true,
+                  centeredSlides: true,
+                  slidesPerView: 'auto',
+                  coverflowEffect: {
+                    rotate: 20,
+                    stretch: 0,
+                    depth: 200,
+                    modifier: 1,
+                    slideShadows: true,
+                  },
+                  loop: true,
+                  autoplay: {
+                    delay: 1100,
+                    disableOnInteraction: false,
+                 },
+                });
+            </script>
+        </section>
+        <!--Divider-->
+        <div class="divider-back">
+            <h5><a href="#">Explore our Gallery</a></h5>
+            <span class="divider"></span>
+        </div>
+        <!--Next Row-->
+        <section class="Adesc2">
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="Image/about4.jpg" style="width:100%">
+                <img class="mySlides" src="Image/about5.jpg" style="width:100%">
+                <img class="mySlides" src="Image/about4.jpg" style="width:100%">
+                <img class="mySlides" src="Image/about5.jpg" style="width:100%">
+            </div>
+            <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+              }
+            </script>              
+            <div class="inner-sec2">
+                <h2>Be seen by the right people</h2>
+                <p>
+                    Most recruiter come to craziefingers to look for Craziefiers 
+                    like you guys either for full time job or just freelance.
+                </p>
+            </div>
+        </section>
+        <!--Next Row-->
+        <section class="bmage">
+            <div class="row">
+                <div class="column">
+                  <video class="vid" src="Videos/Vid1.mp4" style="width:100%" autoplay loop muted>
+                </div>
+                <div class="column">
+                  <video class="vid" src="Videos/Vid2.mp4" style="width:100%" autoplay loop muted>
+                </div>
+                <div class="column">
+                  <video class="vid" src="Videos/Vid3.mp4" style="width:100%" autoplay loop muted>
+                </div>
+            </div>
+            <div class="overlay2"></div>
+        </section>
+        <!--Footer/end-->
+        <footer class="footer">
+            <div class="container2">
+                <div class="row2">
+                     <div class="footer-col">
+                         <h4>about</h4>
+                         <ul>
+                             <li><a href="About.html">About us</a></li>
+                         </ul>
+                     </div> 
+                     <div class="footer-col">
+                         <h4>learning</h4>
+                         <ul>
+                             <li><a href="Learning.html">All courses</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-col">
+                         <h4>gallery</h4>
+                         <ul>
+                             <li><a href="Gallery.html">Gallery</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-col">
+                         <h4>store</h4>
+                         <ul>
+                             <li><a href="https://www.gumroad.com/craziefingers/">Shop Now</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-col">
+                         <h4>support</h4>
+                         <ul>
+                             <li><a href="Support.html">Contact Us</a></li>
+                         </ul>
+                     </div>
+                     <div class="footer-col">
+                         <h4>Follow us</h4>
+                         <div class="social-links">
+                             <a href="https://www.facebook.com/crazie.fingers/"><i class="fab fa-facebook-f"></i></a>
+                             <a href="https://www.instagram.com/craziefingers/"><i class="fab fa-instagram"></i></a>
+                             <a href="https://www.pinterest.com/craziefingers/"><i class="fab fa-pinterest"></i></a>
+                             <a href="https://www.youtube.com/channel/UCcgf--XD2V-BkIHVjCMdMFg"><i class="fab fa-youtube"></i></a>
+                         </div>
+                     </div>
+                     <div class="footer-col">
+                         <h4>OUR NEWSLETTER</h4>
+                         <p>
+                             Subscribe to the CrazieFingers newsletter to get your weekly dose of news, updates, tips and special offers.
+                         </p>
+                         <form action="">
+                             <input type="Email" placeholder="Email">
+                             <input type="submit" value="Subscribe">
+                         </form>
+                     </div>
+                </div>
+            </div>
+            <p class="footer-bottom-text">All Rights reserved by &copy;CrazieFingers.2021</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
