@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color:rgba(248,248,248,0.938);
+}
+
+/* Next Row */
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(Image/crazie.jpg);
+}
+
+.logo{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.logo:hover {
+    color: rgb(0, 255, 255);
+}
+
+nav ul {
+    background-image: url(Image/crazie.jpg);
+
+}
+
+nav ul li {
+    font-family: serif;
+    display: inline-block;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 255, 255);
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#toggler {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    display: none;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#toggler:hover {
+    color:  rgb(0, 255, 255);
+
+}
+
+
+#toggler span {
+    font-family: serif;
+}
+
+#navbar-form {
+    position: relative;
+    display: inline-flex;
+}
+@media (max-width:768px) {
+    #toggler {
+        display: flex;
+        position: relative;
+        right: 200px;
+
+    }
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease-in-out;
+        z-index: 19;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 20px 0px;
+    }
+    #box-1:checked ~ ul {
+        left: 0;
+    }
+}
+
+/* Next Row */
+#fancy-form {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Image/support1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 98vh;
+
+}
+
+/* Container utility */
+#fancy-form .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* main div */
+.form-section {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 5rem;
+    grid-template-columns: repeat (2, 1fr);
+}
+
+/* Form left styling */
+.form-left {
+    line-height: 30px;
+}
+.form-left h1 {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+} 
+.form-left h4 {
+    padding: 0;
+    margin: 0;
+    color: rgb(243, 235, 235);
+}
+.line {
+    border-bottom: 2px solid rgb(12,168,207);
+    width: 8%;
+    margin-left: 0;
+}
+
+.form-left span {
+    color:rgb(187, 182, 182);
+    font-weight:bold;
+}
+.form-left hr {
+    width: 25rem;
+    margin-left: 0;
+    border: 1px solid rgb(53, 53, 52);
+}
+
+/* Social media icons styling */
+.fab{
+    padding: 8px;
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(187,182,182);
+}
+
+.fab:hover {
+    color:rgb(16,135,190);
+}
+
+/* form-right styling */
+.form-left h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    padding-top: 2rem;
+}
+form h5 {
+    padding: 0;
+    margin: 0;
+    color:rgb(228,218,218);
+}
+form input {
+    padding: 0.6rem;
+    width: 27rem;
+    border: none;
+    background-color: rgba(136,133,133,0.3);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+form textarea {
+    padding: 0.6rem;
+    width: 27rem;
+    border: none;
+    background-color: rgba(136,133,133,0.3);
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+form button {
+    width: 9rem;
+    background:rgb(12,168,207);
+    padding: 5px;
+    outline: none;
+    border-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0.9rem;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+@media (max-width: 968px){
+
+    #fancy-form .form-section{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    /* Background Image */
+    #fancy-form{
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Image/support1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 100%;
+    }
+    .form-section .form-right{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    /* Social Media Icons */
+    .fa{
+        padding: 8px;
+        font-size: 18px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        color:rgb(187,182,182);
+    }
+
+}
