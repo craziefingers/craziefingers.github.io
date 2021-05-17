@@ -70,12 +70,12 @@ input[type="checkbox"] {
     height: 40px;
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: center;
     color: #fff;
     font-weight: bolder;
     border: 1px solid #fff;
     display: none;
-    text-align: center;
+    text-align: right;
     padding-top: 1px;
 }
 
@@ -87,6 +87,7 @@ input[type="checkbox"] {
 
 #toggler span {
     font-family: serif;
+
 }
 
 #navbar-form {
