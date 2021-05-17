@@ -75,7 +75,7 @@ input[type="checkbox"] {
     font-weight: bolder;
     border: 1px solid #fff;
     display: none;
-    text-align: right;
+    text-align: center;
     padding-top: 1px;
 }
 
@@ -87,7 +87,9 @@ input[type="checkbox"] {
 
 #toggler span {
     font-family: serif;
-
+    position: relative;
+    left: 200px;
+    
 }
 
 #navbar-form {
