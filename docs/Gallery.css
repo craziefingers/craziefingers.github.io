@@ -235,11 +235,10 @@ input[type="checkbox"] {
     font-family: 'Architects Daughter', sans-serif;
     font-size: 25px;
 }
-
-@media (max-width:412px){
+@media (max-width:768px){
     .Pins {
         position: relative;
-        top: 225px;
+        top: 375px;
     }
     .Pins h3 {
         margin-left: 19px;
@@ -247,10 +246,10 @@ input[type="checkbox"] {
     
 }
 
-@media (max-width:768px){
+@media (max-width:412px){
     .Pins {
         position: relative;
-        top: 375px;
+        top: 366px;
     }
     .Pins h3 {
         margin-left: 19px;
@@ -359,22 +358,7 @@ input[type="checkbox"] {
     color: #fff;
     text-align: center;
 }
-@media (max-width:412px){
-    .divider {
-      margin-left: 110px;
-      width: 150px;
-      bottom: 200px;
-      border-radius: 100%;
-    }
-    .divider-back {
-        background:transparent;
-        height: 1px;
-        position: relative;
-        z-index: 10;
-        top: 180px;
-        text-align: center;
-    }
-}
+
 @media (max-width:768px){
     .divider {
       margin-left: 140px;
@@ -388,6 +372,22 @@ input[type="checkbox"] {
         position: relative;
         z-index: 10;
         top: 330px;
+        text-align: center;
+    }
+}
+@media (max-width:412px){
+    .divider {
+      margin-left: 110px;
+      width: 150px;
+      bottom: 200px;
+      border-radius: 100%;
+    }
+    .divider-back {
+        background:transparent;
+        height: 1px;
+        position: relative;
+        z-index: 10;
+        top: 322px;
         text-align: center;
     }
 }
@@ -451,7 +451,7 @@ img {
         grid-template-rows: repeat(auto-fit, minmax(2rem, 1fr));
     }
     .gal-info {
-        top: -155px;
+        top: -15px;
     }
 }
 
@@ -491,7 +491,6 @@ img {
 .s-button:hover {
     background: #00ccff;
 }
-
 
 @media (max-width:412px) {
     .s-button {
