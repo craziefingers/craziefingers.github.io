@@ -333,6 +333,19 @@ input[type="checkbox"] {
     }
 }
 
+@media (max-width:412px){
+    .swiper-container {
+        margin-top: 20px;
+        width: 90%;
+        height: 30vh;
+    }
+    .swiper-slide img {
+        width: 90%;
+        height: 30vh;
+        border: 2px solid #0f0;
+    }
+}
+
 /* Divider */
 .divider-back {
     background: #24262b;
