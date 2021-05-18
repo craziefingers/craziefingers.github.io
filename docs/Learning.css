@@ -236,7 +236,7 @@ input[type="checkbox"] {
     font-size: 25px;
 }
 
-@media (max-width:768px){
+@media (max-width:892px){
     .Pins {
         top: 206px;
     }
@@ -361,7 +361,7 @@ input[type="checkbox"] {
     text-align: center;
 }
 
-@media (max-width:768px){
+@media (max-width:892px){
     .divider {
       margin-left: 140px;
       width: 150px;
@@ -417,7 +417,7 @@ video {
     outline: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:892px) {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(2rem, 1fr));
@@ -633,7 +633,7 @@ ul {
     border-top: 1px solid #bbb;
 }
 
-@media(max-width: 768px){
+@media(max-width: 892px){
     .footer-col {
         width: 100%;
     }
