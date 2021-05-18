@@ -97,7 +97,7 @@ input[type="checkbox"] {
     #toggler {
         display: flex;
         position: relative;
-        right: 100px;
+        right: 25px;
 
     }
 
