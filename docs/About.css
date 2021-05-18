@@ -502,7 +502,7 @@ input[type="checkbox"] {
         height: 16vh;
     }
 }
-@media (max-width:490px){
+@media (max-width:412px){
     .bmage {
         height: 11vh;
     }
@@ -522,12 +522,13 @@ input[type="checkbox"] {
     }
 }
 
-@media (max-width:490px){
+@media (max-width:412px){
     .overlay2 {
         height: 11vh;
-        bottom: 10.5vh;
+        bottom: 11.5vh;
     }
 }
+
 
 /* For the videos side by side */
 .column {
