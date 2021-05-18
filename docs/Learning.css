@@ -235,6 +235,7 @@ input[type="checkbox"] {
     font-family: 'Architects Daughter', sans-serif;
     font-size: 25px;
 }
+
 @media (max-width:412px){
     .Pins {
         top: 366px;
@@ -243,12 +244,6 @@ input[type="checkbox"] {
         margin-left: 19px;
     }
     
-}
-
-@media (max-width:1024px){
-    .Pins {
-        top: 225px;
-    }
 }
 
 #navbar-form2 {
@@ -361,6 +356,9 @@ input[type="checkbox"] {
       bottom: 44px;
       border-radius: 100%;
     }
+    .divider-back {
+        top: 520px;
+    }
 }
 @media (max-width:768px){
     .divider {
@@ -412,17 +410,6 @@ video {
     outline: none;
 }
 
-@media (max-width:412px) {
-    .container {
-        grid-template-columns: repeat(auto-fit, minmax(7rem, 0.5fr));
-        grid-template-rows: repeat(auto-fit, minmax(2rem, 1fr));
-    }
-    .gal-info {
-        display: flex;
-
-    }
-}
-
 @media (max-width:768px) {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
@@ -430,17 +417,17 @@ video {
     }
 }
 
-@media (max-width:1024px) {
+@media (max-width:412px) {
     .container {
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(7rem, 0.5fr));
         grid-template-rows: repeat(auto-fit, minmax(2rem, 1fr));
     }
     .gal-info {
-        display: flex;
-        position: relative;
-        top: -154px;
+        top: -13px;
+
     }
 }
+
 
 #review-form {
     position: relative;
@@ -634,7 +621,6 @@ ul {
     font-size: smaller;
     border-top: 1px solid #bbb;
 }
-
 
 @media(max-width: 768px){
     .footer-col {
