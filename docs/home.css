@@ -333,6 +333,35 @@ img {
 
     #arrow {
         font-size: 30px;
+        bottom: 60px;
+        right: 22px;
+    }
+    
+}
+
+@media (max-width:412px){
+    #gallery-img img {
+        height: 80px;
+    }
+    #gallery-img {
+        height: 87px;
+        top: 85px;
+    }
+    .desc h4 a {
+        font-size: 12px;
+    }
+    .desc h2 {
+        font-size: 21px;
+    }
+    .desc p {
+        font-size: 12px;
+    }
+    .desc {
+        margin-left: 7px;
+    }
+
+    #arrow {
+        font-size: 30px;
         bottom: 117px;
         right: 7px;
     }
@@ -504,6 +533,70 @@ img {
 
 @media (max-width:768px){
     .gallery2{
+        top: 206px;
+    }
+    #gallery-img2 img {
+        height: 80px;
+        width: 80px;
+    }
+    #gallery-img2 {
+        height: 87px;
+        top: 85px;
+    }
+    .desc2 h4 a {
+        font-size: 12px;
+    }
+    .desc2 h2 {
+        font-size: 21px;
+    }
+    .desc2 p {
+        font-size: 12px;
+    }
+    .desc2 {
+        margin-left: 7px;
+    }
+    #arrow2 {
+        font-size: 30px;
+        bottom: 60px;
+        right: 30px;
+    }
+    
+}
+
+@media (max-width:412px){
+    .gallery2{
+        top: 206px;
+    }
+    #gallery-img2 img {
+        height: 80px;
+        width: 80px;
+    }
+    #gallery-img2 {
+        height: 87px;
+        top: 85px;
+    }
+    .desc2 h4 a {
+        font-size: 12px;
+    }
+    .desc2 h2 {
+        font-size: 21px;
+    }
+    .desc2 p {
+        font-size: 12px;
+    }
+    .desc2 {
+        margin-left: 7px;
+    }
+    #arrow2 {
+        font-size: 30px;
+        bottom: 117px;
+        right: 30px;
+    }
+    
+}
+
+@media (max-width:412px){
+    .gallery2{
         top: 287px;
     }
     #gallery-img2 img {
@@ -542,6 +635,21 @@ img {
     position: relative;
     top: 280px;
 }
+
+@media (max-width:768px) {
+    .review-info  {
+        top: 205px;
+        height: 30vh;
+      }
+}
+
+@media (max-width:412px) {
+    .review-info  {
+        top: 280px;
+        height: 17vh;
+      }
+}
+
 #review-desc {
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -583,6 +691,20 @@ img {
   margin: 0;
   position: relative;
   top: 280px;
+}
+
+@media (max-width:768px) {
+    #slider-container {
+        top: 205px;
+        height: 40vh;
+      }
+}
+
+@media (max-width:412px) {
+    #slider-container {
+        top: 280px;
+        height: 30vh;
+      }
 }
 
 #testimonials {
@@ -668,7 +790,6 @@ ul {
     width: 100%;
     margin: 0;
 }
-
 .footer-col {
     width: 25%;
     height: 15%;
@@ -773,13 +894,17 @@ ul {
         margin-bottom: 30px;
     }
     .footer {
-        top: 280px;
+        top: 205px;
     }
 }
 
-@media(max-width: 574px){
+@media(max-width: 412px){
     .footer-col {
-        width: 100%;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer {
+        top: 280px;
     }
 }
 

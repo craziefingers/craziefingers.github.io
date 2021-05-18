@@ -238,7 +238,7 @@ input[type="checkbox"] {
 @media (max-width:768px){
     .Pins {
         position: relative;
-        top: 375px;
+        top: 205px;
     }
     .Pins h3 {
         margin-left: 19px;
@@ -371,7 +371,7 @@ input[type="checkbox"] {
         height: 1px;
         position: relative;
         z-index: 10;
-        top: 330px;
+        top: 160px;
         text-align: center;
     }
 }
@@ -441,7 +441,7 @@ img {
         grid-template-rows: repeat(auto-fit, minmax(2rem, 1fr));
     }
     .gal-info {
-        top: -4px;
+        top: -174px;
     }
 }
 
@@ -688,7 +688,7 @@ ul {
         width: 100%;
     }
     .footer {
-        top: 374px;
+        top: 204px;
     }
 }
 @media(max-width: 412px){
