@@ -119,6 +119,31 @@ input[type="checkbox"] {
     }
 }
 
+@media (max-width:412px) {
+    #toggler {
+        display: flex;
+        position: relative;
+        right: 25px;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        text-align: center;
+        transition: 0.8s ease-in-out;
+        z-index: 19;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 20px 0px;
+    }
+    #box-1:checked ~ ul {
+        left: 0;
+    }
+}
 /* Next Row */
 #fancy-form {
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Image/support1.jpg);
